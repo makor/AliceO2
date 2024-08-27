@@ -69,7 +69,7 @@ class PID
 
   // To set the elementary track cuts
   void setPIDCuts(int minnCls = 60, float absTgl = 1., float mindEdxTot = 10.0,
-                  float maxdEdxTot = 70., float minpTPC = 0.05, float maxpTPC = 20., float minpTPCMIPs = 0.45, float maxpTPCMIPs = 0.55, bool turnOffHistosForAsync = false,  bool getdEdxVspHypoHist = false)
+                  float maxdEdxTot = 70., float minpTPC = 0.05, float maxpTPC = 20., float minpTPCMIPs = 0.45, float maxpTPCMIPs = 0.55, bool turnOffHistosForAsync = false, bool getdEdxVspHypoHist = false)
   {
     mCutMinnCls = minnCls;
     mCutAbsTgl = absTgl;
